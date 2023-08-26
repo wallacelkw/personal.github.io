@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee Kim Wang - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/profilepicture.JPG" alt="Richard hanrick" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard hanrick">Lee Kim Wang</h1>
+
+                    <p class="title">Fresh Graduated</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:richard@example.com" class="contact-link">kimwang6957@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+12133522795" class="contact-link">+6012-3607513</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="1982-06-23">Aug 19, 1997</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Gemas, Tampin, Negeri Sembilan</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <!--
+
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+-->
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/kim-wang-lee-088897210/" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+                    <!--
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Blog</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+-->
+                </ul>
+
+            </nav>
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about  active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I am graduated as Computer Science from Multimedia University(MMU) Malaysia. I am experienced in web development using HTML, Javascript and PHP. I am passionate on Data science or Machine Learning
+                    </p>
+
+                    <p>
+                        In My Final Year Project, I participate in research in Face Attack Presentation (Face-anti spoofing) classification using Stacking and Bagging Approach.
+                    </p>
+                    <p>
+                        My job is to help you solve the problem using AI field. I am experience in Machine Learning, Deep Learning and other relatively frameworks, such as Pytorch.
+                    </p>
+                </section>
+
+
+                <!--
+          - service
+        -->
+
+                <section class="service">
+
+                    <h3 class="h3 service-title">What i'm doing</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icons8-machine-learning-50.png
+                " alt="design icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                                <p class="service-item-text">
+                                    Use Machine Learning Approach perform analysis.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icons8-deep-learning-64.png" alt="Web development icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Deep Learning</h4>
+
+                                <p class="service-item-text">
+                                    Use Pytorch framework to train the model in Classification.
+                                </p>
+                            </div>
+
+                        </li>
+                        <!--
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                                <p class="service-item-text">
+                                    Professional development of applications for iOS and Android.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+
+                                <p class="service-item-text">
+                                    I make high-quality photos of any category at a professional level.
+                                </p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+-->
+                </section>
+
+
+
+
+
+
+            </article>
+
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Multimedia University, Malacca</h4>
+
+                            <span>2020 — 2023</span>
+
+                            <p class="timeline-text">
+                                Bachelors of Computer Science(AI) (CGPA: 3.46)
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Multimedia University, Malacca</h4>
+
+                            <span>2015 — 2017</span>
+
+                            <p class="timeline-text">
+                                Diploma in Electornic Engineering (CGPA: 3.30)
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Experience</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Innov8tif Solutions Sdn Bhd - AI Engineer(Part Time)</h4>
+
+                            <span>Aug 2022 - Jan 2023</span>
+
+                            <p class="timeline-text">
+                                Enhance the prototype in UV detection under control environment. Detect ID or Passport to check the security feature.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Innov8tif Solutions Sdn Bhd - AI Engineer(Internship)</h4>
+
+                            <span>May 2022 - July 2022</span>
+
+                            <p class="timeline-text">
+                                Increase the accuracy performance of face recognition using Pytorch and VGG19.
+                            </p>
+                            <p class="timeline-text">
+                                Develop an automation of transfer learning from unorganized face images to organize face image for future training purposes.
+                            </p>
+                            <p class="timeline-text">
+                                Doing a prototype for detecting ID or Passport security feature using UV light using Arduino.
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lapp Asia Pacific Pte Ltd - Material Handler</h4>
+
+                            <span>Aug 2018 — Des 2019</span>
+
+                            <p class="timeline-text">
+                                Responsible for preparing the material to the production based on BOM list after PO release.
+
+                            </p>
+                            <p class="timeline-text">
+                                Make sure there is no defect of the product.
+
+                            </p>
+
+                        </li>
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Lapp Asia Pacific Pte Ltd - Harnessing Technician</h4>
+
+                            <span>Aug 2017 — Aug 2018</span>
+
+                            <p class="timeline-text">
+                                Modify the cable based on the BOM list and drawing from raw cable into socket cable.
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Certificate</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <section class="testimonials">
+                                <ul class="testimonials-list has-scrollbar">
+                                    <li class="testimonials-item">
+                                        <div class="content-card" data-testimonials-item>
+                                            <figure class="testimonials-avatar-box">
+                                                <img src="./assets/images/icons8-certificate-80.png" alt="GCP" width="50" data-testimonials-avatar>
+                                            </figure>
+                                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Google Cloud Fundatmentals: Core Infrastructure</h4>
+                                            <div class="testimonials-text" data-testimonials-text>
+                                                <p>
+                                                    7 June 2023
+                                                </p>
+                                                <img src="./assets/images/gcp.jpg" alt="Google Cloud Certificate" class="resized-image">
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+
+                        </li>
+                        <li class="timeline-item">
+                            <section class="testimonials">
+                                <ul class="testimonials-list has-scrollbar">
+                                    <li class="testimonials-item">
+                                        <div class="content-card" data-testimonials-item>
+                                            <figure class="testimonials-avatar-box">
+                                                <img src="./assets/images/icons8-certificate-80.png" alt="Academic" width="50" data-testimonials-avatar>
+                                            </figure>
+                                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Academic Trancript</h4>
+                                            <div class="testimonials-text" data-testimonials-text>
+                                                <p>
+                                                    1 Aug 2023
+                                                </p>
+                                                <div class="pdf-container">
+                                                    <iframe class="pdf-iframe" src="./assets/images/act.pdf" class="resized-image-pdf"></iframe>
+
+                                                </div>
+
+                                                <a href="./assets/images/act.pdf" target="_blank">Open PDF</a>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                    </ol>
+                </section>
+
+
+
+                <!--
+          - testimonials
+        -->
+
+
+                <!--
+          - testimonials modal
+        -->
+
+                <div class="modal-container" id="gcp-modal" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/icons8-certificate-80.png" alt="GCP Certificate" width="50" data-modal-img>
+                            </figure>
+                        </div>
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>GCP Certificate</h4>
+
+                            <div data-modal-text>
+                                <p>
+                                    Content Images only
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+
+
+
+
+
+                <!-- <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+      </button>
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/icons8-certificate-80.png" alt="Daniel lewis" width="80" data-modal-img>
+                            </figure>
+                        </div>
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>GCP Certificate</h4>
+                            <img src="./assets/images/gcp.jpg" alt="gcp cert" class="resized-image">
+                            <div data-modal-text>
+                                <p>
+                                    haha
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div> -->
+
+
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <ul class="skills-list content-card">
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Programming (Python, HTML, CSS, JS, SQL)</h5>
+                                <data value="60">60%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 60%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Supervised Learning (linear and logistic regressions, ensemble learning (bagging approach, stacking approach), support vector machines (SVM),Classification)</h5>
+                                <data value="50">50%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 50%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Data Visualization (Excel, Pandas, Power-BI)</h5>
+                                <data value="40">40%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 40%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Others (Pytorch, Deep Learning, Machine Learning, Computer Vision)</h5>
+                                <data value="30">30%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 30%;"></div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+            </article>
+
+
+
+
+
+            <!--
+        - #PORTFOLIO
+      -->
+
+            <article class="portfolio" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Mini Project</h2>
+                </header>
+
+                <section class="projects">
+
+                    <ul class="filter-list">
+
+                        <li class="filter-item">
+                            <button class="active" data-filter-btn>All</button>
+                        </li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+                        <ul class="select-list">
+
+                            <li class="select-item">
+                                <button data-select-item>All</button>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://github.com/wallacelkw/Inventory-Management-System-using-PHP-and-SQL" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/img.JPG" alt="finance" loading="lazy" class="project-sub-img">
+                                </figure>
+
+                                <h3 class="project-title">Inventory Management System</h3>
+
+                                <p class="project-category">Web development</p>
+
+                            </a>
+                        </li>
+                        <li class="project-item  active" data-filter-item data-category="bank recognition">
+                            <a href="https://github.com/wallacelkw/Bank-Recognition-" target="_blank">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/bankrecog.JPG" alt="finance" loading="lazy" class="project-sub-img">
+                                </figure>
+
+                                <h3 class="project-title">Bank Recognition using Machine Learning</h3>
+
+                                <p class="project-category">Tkinter UI</p>
+
+                            </a>
+                        </li>
+
+
+
+                </section>
+
+            </article>
+
+
+
+            <!--
+        - #CONTACT
+      -->
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+
+                    <form action="send_email.php" method="post" class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+                        </div>
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                        <button class="form-btn" type="submit" data-form-btn>
+                    <ion-icon name="paper-plane"></ion-icon>
+                    <span>Send Message</span>
+                </button>
+                    </form>
+                </section>
+            </article>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
