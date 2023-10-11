@@ -1450,7 +1450,7 @@ textarea.form-input::-webkit-resizer {
         border-radius: 30px;
     }
     .avatar-box img {
-        width: 120px;
+        width: 100px;
     }
     .info-content .name {
         margin-bottom: 15px;
@@ -1881,7 +1881,7 @@ textarea.form-input::-webkit-resizer {
         flex-direction: column;
     }
     .avatar-box img {
-        width: 150px;
+        width: 120px;
     }
     .info-content .name {
         white-space: nowrap;
